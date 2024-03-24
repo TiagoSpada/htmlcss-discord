@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, sans-serif;
+}
+
 /* CLASSI DI LAYOUT */
 .container-1200 {
     max-width: 1200px;
@@ -61,20 +65,8 @@
 /* CLASSI DI UTILITY */
 
 
-.bg-orange {
-    background-color: orange;
-}
-
-.bg-lightblue {
-    background-color: lightblue;
-}
-
-.bg-darkblue {
-    background-color: darkblue;
-}
-
-.bg-fuchsia{
-    background-color:fuchsia;
+.bg-blue {
+    background-color: rgb(37,94,233);
 }
 
 .bg-lightgrey {
@@ -105,11 +97,11 @@
     background-color: rgb(36, 36, 36);
 }
 
-.padding-10 {
-    padding: 20px 0;
+.bg-white{
+    background-color: white;
 }
 
-.padding-20 {
+.py-20 {
     padding: 20px 0;
 }
 
@@ -139,10 +131,6 @@
 
 .padding-right10 {
     padding-right: 10px;
-}
-
-.padding-top20{
-    padding-top: 20px;
 }
 
 .height-50 {
@@ -179,11 +167,73 @@
 
 .unstyled-list li {
     display: inline-block;
+    padding: 0px 15px;
 }
 
 .unstyled-list li a {
-    color: #000;
+    color: white;
     text-decoration: none;
 }
 
+.aling-items-center {
+    align-items: center;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-black{
+    color: black;
+}
+
+.py-100 {
+    /* margin-top: 100px; */
+    padding: 100px 0px;
+}   
+
 /* FINE CALSSI UTILITY */
+
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.bg-jumbo {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-100 h1{
+    font-size: 56px;
+    font-weight: 700;
+    padding: 20px 0 40px 0;
+}
+
+.paragraph-download {
+    max-width: 780px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.section-btn {
+    padding: 40px 0px 80px 0px;
+}
+
+.section-btn a {
+    padding: 20px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section-btn a span {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;    
+}

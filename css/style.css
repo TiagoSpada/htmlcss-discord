@@ -56,6 +56,10 @@ body{
     width: 25%;
 }
 
+.col-30 {
+    width: 30%;
+}
+
 .col-75-4{
     width: calc(75% / 4);
 }
@@ -67,18 +71,6 @@ body{
 
 .bg-blue {
     background-color: rgb(37,94,233);
-}
-
-.bg-lightgrey {
-    background-color: lightgray;
-}
-
-.bg-skyblue{
-    background-color:skyblue ;
-} 
-
-.bg-pink{
-    background-color: pink;
 }
 
 .bg-green {
@@ -153,8 +145,12 @@ body{
     display: flex;
 }
 
-.justify-content-between {
+.justify-content-around {
     justify-content: space-between;
+}
+
+.justify-content-between {
+    justify-content: space-around;
 }
 
 .btn-footer {
@@ -188,9 +184,12 @@ body{
 }
 
 .py-100 {
-    /* margin-top: 100px; */
-    padding: 100px 0px;
+    padding: 6.4% 0px;
 }   
+
+.margin-left5 {
+    margin-left: 5%;
+}
 
 /* FINE CALSSI UTILITY */
 
@@ -236,4 +235,15 @@ body{
     display: inline-block;
     font-size: 30px;
     vertical-align: middle;    
+}
+
+.title-section{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0 40px 0;
+}
+
+.paragraph-section {
+    font-size: 18px;
+    line-height: 1.6;
 }

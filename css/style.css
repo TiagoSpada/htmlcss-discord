@@ -73,6 +73,10 @@ body{
     background-color: rgb(37,94,233);
 }
 
+.bg-lightgrey {
+    background-color: rgb(228,228,228);
+}
+
 .bg-green {
     background-color: green;
 }
@@ -145,25 +149,21 @@ body{
     display: flex;
 }
 
-.justify-content-around {
-    justify-content: space-between;
-}
-
 .justify-content-between {
-    justify-content: space-around;
-}
-
-.btn-footer {
-    padding: 10px 20px;
+    justify-content: space-between;
 }
 
 .unstyled-list {
     list-style-type: none;
 }
 
-.unstyled-list li {
+.ul-header li{
     display: inline-block;
     padding: 0px 15px;
+}
+
+.inline-block li{
+    display: inline-block;
 }
 
 .unstyled-list li a {
@@ -189,6 +189,10 @@ body{
 
 .margin-left5 {
     margin-left: 5%;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* FINE CALSSI UTILITY */
@@ -247,3 +251,68 @@ body{
     font-size: 18px;
     line-height: 1.6;
 }
+
+.wave {
+    opacity: 0.1;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.stars {
+    margin: 0 auto;
+    line-height: 50px;
+    max-width: 50%;
+    background-image: url(../img/stars.svg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+.stars a {
+    opacity: 0.5;
+}
+
+.info-footer{
+    padding: 20px 0;
+    color: white;
+    max-width: 60%;
+}
+
+.info-footer h1{
+    margin: 20px 0;
+    color: #83a0e6;
+}
+
+
+.info-footer h4{
+    margin: 20px 0;
+    color: #83a0e6;
+}
+
+.info-footer div{
+    margin: 20px 0;
+}
+
+.info-footer li{
+    line-height: 2;
+    margin: 0 5px;
+}
+
+.btn-footer{
+    padding: 10px;
+    border-radius: 30px;
+    height: 50%;
+    margin: auto 0;
+}
+
+.border-top{
+    width: 100%;
+    border-top: 1px solid #83a0e6;
+}
+
+
